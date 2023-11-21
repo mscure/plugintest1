@@ -1,0 +1,13 @@
+name: plugintest1
+version: '${project.version}'
+main: org.test.plugintest1.Main
+api-version: '1.19'
+commands:
+  thelp:
+    description: help command
+    aliases:
+      - thelp2
+  tgivedia:
+    description: givedia
+  topeninv:
+    description: open gui
